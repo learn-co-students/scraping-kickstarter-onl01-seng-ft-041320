@@ -1,3 +1,6 @@
+require_relative "./spec_helper"
+require_relative "../lib/kickstarter_scraper.rb"
+
 describe "#create_project_hash" do
 
   it "can be called on with no errors" do
